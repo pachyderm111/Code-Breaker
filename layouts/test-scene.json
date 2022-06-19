@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8658000000000039,
+    "zoomFactor": 0.7058000000000035,
     "windowMask": false
   },
   "objectsGroups": [
@@ -211,6 +211,18 @@
       "name": "NewRoomAnimation",
       "type": "string",
       "value": ""
+    },
+    {
+      "folded": true,
+      "name": "up1",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
+      "name": "up2",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
@@ -317,7 +329,7 @@
       "name": "Weapon",
       "persistentUuid": "c3c7c20f-773b-4be2-a532-9dcbcdeefffd",
       "width": 0,
-      "x": 494,
+      "x": 502,
       "y": 264,
       "zOrder": 13,
       "numberProperties": [],
@@ -515,6 +527,198 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "HealthText",
+      "persistentUuid": "9e5ad64e-3f9e-4a07-8358-e7809c366e1a",
+      "width": 160,
+      "x": 416,
+      "y": 192,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "Upgrade Menu",
+      "locked": false,
+      "name": "text1",
+      "persistentUuid": "69aa4ef8-59d7-4122-a6a3-fbe40e00909c",
+      "width": 768,
+      "x": 0,
+      "y": 32,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "Upgrade Menu",
+      "locked": false,
+      "name": "button1",
+      "persistentUuid": "a19893f4-2f80-4efb-903a-81243f9eadb4",
+      "width": 128,
+      "x": 0,
+      "y": 96,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "Upgrade Menu",
+      "locked": false,
+      "name": "description1",
+      "persistentUuid": "d46516ea-e092-4bd9-b95a-8d40af5028e8",
+      "width": 640,
+      "x": 128,
+      "y": 96,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 67,
+      "layer": "Upgrade Menu",
+      "locked": false,
+      "name": "text2",
+      "persistentUuid": "417e2606-c187-48bc-8c92-74dcefff78e7",
+      "width": 768,
+      "x": 0,
+      "y": 160,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "Upgrade Menu",
+      "locked": false,
+      "name": "button2",
+      "persistentUuid": "ea2cc66b-10a3-483c-8bdb-75f20ebea6a3",
+      "width": 128,
+      "x": 0,
+      "y": 224,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "Upgrade Menu",
+      "locked": false,
+      "name": "description2",
+      "persistentUuid": "2333f79a-af09-4559-81db-5459d48b2632",
+      "width": 640,
+      "x": 128,
+      "y": 224,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 67,
+      "layer": "Upgrade Menu",
+      "locked": false,
+      "name": "text3",
+      "persistentUuid": "43bbd231-c0ff-48f2-803a-61207941b607",
+      "width": 768,
+      "x": 0,
+      "y": 288,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "Upgrade Menu",
+      "locked": false,
+      "name": "button3",
+      "persistentUuid": "332c3a75-fe03-4362-9f0c-5b5aff974d97",
+      "width": 128,
+      "x": 0,
+      "y": 352,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "Upgrade Menu",
+      "locked": false,
+      "name": "description3",
+      "persistentUuid": "39b9c170-6e19-4264-a299-00726fd5c492",
+      "width": 640,
+      "x": 128,
+      "y": 352,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 512,
+      "layer": "Pause",
+      "locked": false,
+      "name": "NewSprite",
+      "persistentUuid": "1b267131-80b2-429d-b70b-c88011b9bc3c",
+      "width": 832,
+      "x": -32,
+      "y": -32,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 192,
+      "layer": "Pause Menu Buttons",
+      "locked": false,
+      "name": "CloseButton",
+      "persistentUuid": "b3d9e2b6-e94e-49a9-aab3-3456c19b0846",
+      "width": 192,
+      "x": 288,
+      "y": 128,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -668,15 +872,6 @@
           "HalfPeriodTime": 0.5,
           "IsFlashing": false,
           "FlashDuration": 0
-        },
-        {
-          "name": "Health",
-          "type": "Health::Health",
-          "Health": 5,
-          "DamageCooldown": 0,
-          "MaxHealth": 5,
-          "IsJustDamaged": false,
-          "CooldownActive": false
         },
         {
           "name": "TopDownMovement",
@@ -1509,105 +1704,6 @@
       ]
     },
     {
-      "assetStoreId": "39687b0356672394baed61d555f3b6ba077e7ad369a7898c421fd318d4307a72",
-      "name": "UiHeart",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Empty",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "UI Heart_Empty.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Full",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "UI Heart_Full.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Half",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.02500000037252903,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "UI Heart_Half.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "name": "WeaponPickup",
       "tags": "",
@@ -1816,6 +1912,358 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "HealthText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "<Health Here>",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "button1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "button1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "button1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "button2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "button2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "button2-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "button3",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "button3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "button3-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "text1",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Upgrade 1",
+      "font": "",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "text2",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Upgrade 2",
+      "font": "",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "text3",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Upgrade 3",
+      "font": "",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": true,
+      "name": "description1",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "characterSize": 28,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": true,
+      "name": "description2",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "characterSize": 28,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": true,
+      "name": "description3",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "characterSize": 28,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "New Piskel-1.png.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "f76512029b0f1b0ad0993194e9ca0eaf81f312fb0afdf7db9bbd573b47df0333",
+      "name": "CloseButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Close button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -1889,6 +2337,33 @@
             "=",
             "WeaponPickup.Variable(type)"
           ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Upgrade Menu\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Pause\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Pause Menu Buttons\""
+          ]
         }
       ]
     },
@@ -1906,7 +2381,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "enemy damage",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1935,12 +2409,29 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Health::Health::Hit"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Player",
-                    "Health",
-                    "2",
+                    "playerHealth",
+                    "-",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CameraShake::CameraShake"
+                  },
+                  "parameters": [
+                    "",
+                    "0",
+                    "0",
+                    "\"\"",
+                    "",
+                    "0.2",
+                    "0",
+                    "1",
+                    "0.1",
+                    "",
                     ""
                   ]
                 },
@@ -2273,7 +2764,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Health",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2283,10 +2773,9 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "VarObjet"
+                    "value": "VarGlobal"
                   },
                   "parameters": [
-                    "Player",
                     "playerHealth",
                     "=",
                     "0"
@@ -2335,13 +2824,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Health::Health::Hit"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "Player",
-                    "",
-                    "1",
-                    ""
+                    "playerHealth",
+                    "-",
+                    "1"
                   ]
                 },
                 {
@@ -2355,24 +2843,7 @@
                     "",
                     ""
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Health::Health::IsJustDamaged"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Health",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
+                },
                 {
                   "type": {
                     "value": "Flash::Flash::Flash"
@@ -2939,45 +3410,10 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Inventory",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Upgrade",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PushScene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Upgrade Menu\""
-                  ]
-                }
-              ]
-            },
             {
               "colorB": 228,
               "colorG": 176,
@@ -3256,7 +3692,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Virus Housekeeping",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3396,7 +3831,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Shooting",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3492,6 +3926,16 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Upgrade Menu\""
+                  ]
                 }
               ],
               "actions": [
@@ -3523,6 +3967,18 @@
                   "parameters": [
                     "Laser",
                     "\"Dot\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Mouse-Click-00-c-FesliyanStudios.com.ogg",
+                    "",
+                    "30",
+                    "RandomFloatInRange(0.8,1.2)"
                   ]
                 },
                 {
@@ -3587,6 +4043,16 @@
                     "Weapon",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Upgrade Menu\""
                   ]
                 }
               ],
@@ -3791,6 +4257,449 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "HealthText",
+            "=",
+            "ToString(GlobalVariable(playerHealth))"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreAutour"
+          },
+          "parameters": [
+            "HealthText",
+            "Player",
+            "50",
+            "270"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "VariableClearChildren"
+          },
+          "parameters": [
+            "upgradeList"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariablePushString"
+          },
+          "parameters": [
+            "upgradeList",
+            "\"Hardened Case\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariablePushString"
+          },
+          "parameters": [
+            "upgradeList",
+            "\"Testing\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "up1",
+                "=",
+                "VariableString(upgradeList[RandomInRange(0,1)])"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "text1",
+                "=",
+                "VariableString(up1)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "up2",
+                "=",
+                "VariableString(upgradeList[RandomInRange(0,1)])"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "text2",
+                "=",
+                "VariableString(up2)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Upgrade",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Upgrade Menu\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Escape"
+          ]
+        },
+        {
+          "type": {
+            "value": "LayerVisible"
+          },
+          "parameters": [
+            "",
+            "\"Upgrade Menu\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Upgrade Menu\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "f"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Pause\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Pause Menu Buttons\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayerTimeScale"
+          },
+          "parameters": [
+            "",
+            "\"\"",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Escape"
+          ]
+        },
+        {
+          "type": {
+            "value": "LayerVisible"
+          },
+          "parameters": [
+            "",
+            "\"Pause Menu Buttons\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Pause\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Pause Menu Buttons\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayerTimeScale"
+          },
+          "parameters": [
+            "",
+            "\"\"",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "button1",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "playerHealth",
+            "+",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Upgrade Menu Pause/Unpause",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Upgrade Menu\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "\"\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Pause\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Upgrade Menu\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeLayerTimeScale"
+              },
+              "parameters": [
+                "",
+                "\"\"",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Pause\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -3823,6 +4732,39 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "UI",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 10895520,
+      "ambientLightColorG": 6042736,
+      "ambientLightColorR": 7387464,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Upgrade Menu",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 9247312,
+      "ambientLightColorG": 6042736,
+      "ambientLightColorR": 9987080,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Pause",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 11830880,
+      "ambientLightColorG": 6042736,
+      "ambientLightColorR": 9987080,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Pause Menu Buttons",
       "visibility": true,
       "cameras": [],
       "effects": []
@@ -3832,10 +4774,6 @@
     {
       "name": "Flash",
       "type": "Flash::Flash"
-    },
-    {
-      "name": "Health",
-      "type": "Health::Health"
     },
     {
       "name": "Pathfinding",

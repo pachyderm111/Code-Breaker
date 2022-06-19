@@ -2245,6 +2245,37 @@
           "identifier": "https://resources.gdevelop-app.com/assets/Interface/PX UI Basic/Blue bar.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-1.png.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Mouse-Click-00-c-FesliyanStudios.com.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Mouse-Click-00-c-FesliyanStudios.com.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Close button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/On-Screen Controls/Sprites/Flat Dark/Close button.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -2269,6 +2300,12 @@
       "name": "Recoil",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "playerHealth",
+      "type": "number",
+      "value": 5
     }
   ],
   "layouts": [
