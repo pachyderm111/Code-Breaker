@@ -1,0 +1,2321 @@
+{
+  "firstLayout": "MainMenu",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "c1aaa241-9f44-4bf1-bc85-8f2d06448d9a",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Code / Breaker",
+    "description": "",
+    "author": "pachyderm111",
+    "windowWidth": 768,
+    "windowHeight": 432,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "dark",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 62397,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [
+      "80uDf8RlOregH0tKLycQFOGI1ko1"
+    ],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platform 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GDevelop examples/Platformer/Level/Platform 1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pointer Cursor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pointer Cursor.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Mini FX, Items & UI/Mini UI/Pointer Cursor.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pointer Cursor_Drop Shadowed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pointer Cursor_Drop Shadowed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Mini FX, Items & UI/Mini UI/Pointer Cursor_Drop Shadowed.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser (06).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser (06).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Space Shooter/PNG/Lasers/Green laser (06).png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "1BF4A184-C527-45EE-8B31-CA84065B3764.JPG",
+        "kind": "image",
+        "metadata": "",
+        "name": "1BF4A184-C527-45EE-8B31-CA84065B3764.JPG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "589ec942229c363a37fafa940e3eb96b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "589ec942229c363a37fafa940e3eb96b.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Start button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Start button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/On-Screen Controls/Sprites/Flat Light/Start button.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Start_Blank.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Start_Blank.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Xbox 360 Buttons/Start_Blank.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Start_Start.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Start_Start.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Interface/Xbox 360 Buttons/Start_Start.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sprite.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (1)2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel (1)3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (1)3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Circuit_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Circuit_Hurt.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 4/Mr. Circuit/Mr. Circuit_Hurt.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Circuit_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Circuit_Idle_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 4/Mr. Circuit/Mr. Circuit_Idle_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Circuit_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Circuit_Idle_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 4/Mr. Circuit/Mr. Circuit_Idle_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Circuit_Running_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Circuit_Running_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 4/Mr. Circuit/Mr. Circuit_Running_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Circuit_Running_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Circuit_Running_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 4/Mr. Circuit/Mr. Circuit_Running_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Circuit_Running_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Circuit_Running_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/GrafxKid Pack/Character Pack 4/Mr. Circuit/Mr. Circuit_Running_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel (1)4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (1)4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel-2.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-2.png.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-2-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-2-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-2-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-2-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewPiskel2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewPiskel2-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Greenlaser06-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Greenlaser06-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Clean.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Clean.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Floor/Floor_Clean.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Cracks1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Cracks1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Floor/Floor_Cracks1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Cracks2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Cracks2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Floor/Floor_Cracks2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Cracks3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Cracks3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Floor/Floor_Cracks3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Cracks4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Cracks4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Floor/Floor_Cracks4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Cracks5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Cracks5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Floor/Floor_Cracks5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Cracks6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Cracks6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Floor/Floor_Cracks6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Cracks7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Cracks7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Floor/Floor_Cracks7.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Ladder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Ladder.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Floor/Floor_Ladder.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Clean-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clean-1.png.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Clean-1png-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clean-1png-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-3-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-4-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-2-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-3-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-4-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-2-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-3-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-3-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-4-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-4-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-2-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-3-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-3-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-4-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-4-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser (16).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser (16).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Space Shooter/PNG/Lasers/Green laser (16).png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Green laser (16)-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser (16)-1.png.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1.png.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-3-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-4-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-5-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-2-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-3-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-4-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-5-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-5-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-2-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-3-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-3-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-4-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-4-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "shooting-5-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "shooting-5-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "laserhit.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "laserhit.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "laserhit2.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "laserhit2.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "laserhit.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "laserhit.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "laserhit3.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "laserhit3.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "laserfire.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "laserfire.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-2-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-3-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-4-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Shooting-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shooting-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Shooting-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shooting-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Shooting-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shooting-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Shooting-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shooting-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Shooting-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shooting-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Shooting-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shooting-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Clean-1png-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clean-1png-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Clean-1png-1-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clean-1png-1-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Clean-1png-1-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clean-1png-1-1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Clean-1png-1-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clean-1png-1-1-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Clean-1png-1-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clean-1png-1-1-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Clean-1png-1-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clean-1png-1-1-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Clean-1png-1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clean-1png-1-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Start-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Start-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Blank-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Start-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Start-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Blank-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Start-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Start-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Blank-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewPiskel2-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewPiskel2-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewPiskel2-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewPiskel2-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wall Banner Red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wall Banner Red.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Walls/Wall Banner Red.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "WallBannerRed-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WallBannerRed-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Idle-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Explosion-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wall Mid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wall Mid.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Walls/Wall Mid.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WallMid-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\WallMid-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Closed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Closed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Door/Door_Closed.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Open.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Door/Door_Open.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "complete.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "complete.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Up-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Up-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "WallBannerRed-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WallBannerRed-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "WallBannerRed-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WallBannerRed-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Explosion-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health Bar.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Pirate Bomb Pack/Objects/Health Bar/Health Bar.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gun13-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gun13-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gun13-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gun13-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gun13-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gun13-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gun13-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gun13-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gun13-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gun13-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4Way-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4Way-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "UpDeadEnd-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "UpDeadEnd-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DownDeadEnd-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DownDeadEnd-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Side2Way-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Side2Way-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-3-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-2-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-3-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4Way-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4Way-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "UpDeadEnd-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "UpDeadEnd-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DownDeadEnd-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DownDeadEnd-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Side2Way-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Side2Way-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4Way-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4Way-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4Way-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4Way-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4Way-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4Way-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4Way-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4Way-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "UpDeadEnd-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "UpDeadEnd-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "UpDeadEnd-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "UpDeadEnd-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "UpDeadEnd-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "UpDeadEnd-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "UpDeadEnd-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "UpDeadEnd-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DownDeadEnd-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DownDeadEnd-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DownDeadEnd-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DownDeadEnd-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DownDeadEnd-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DownDeadEnd-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DownDeadEnd-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DownDeadEnd-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Side2Way-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Side2Way-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Side2Way-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Side2Way-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Side2Way-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Side2Way-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Side2Way-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Side2Way-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Room_Trap14-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Room_Trap14-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Room_Trap14-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Room_Trap14-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Room_Trap23-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Room_Trap23-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Room_Trap33-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Room_Trap33-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ItemDrop-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ItemDrop-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ItemDropToo-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ItemDropToo-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-3-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-4-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gun13-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gun13-2-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Kenney Rocket.ttf",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "Kenney Rocket.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "laserhit (2).ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "laserhit (2).ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "playerhit.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "playerhit.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI Heart_Empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "UI Heart_Empty.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/UI/UI Heart_Empty.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI Heart_Full.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "UI Heart_Full.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/UI/UI Heart_Full.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/UI Heart_Half.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "UI Heart_Half.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/UI/UI Heart_Half.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player-2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-2-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Player-3-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player-3-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "virus1.gif",
+        "kind": "image",
+        "metadata": "",
+        "name": "virus1.gif",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "boom-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "boom-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "virus1 (1).gif",
+        "kind": "image",
+        "metadata": "",
+        "name": "virus1 (1).gif",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "idle-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "idle-2-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cursor-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cursor-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cursor-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cursor-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cursor-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cursor-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Greenlaser06-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Greenlaser06-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Laser-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Laser-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Explosion-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explosion-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cursor-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cursor-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cursor-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cursor-1-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "WeaponPickup-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WeaponPickup-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gun-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gun-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gun-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gun-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gun13-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gun13-1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gun-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gun-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cursor-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cursor-1-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Upgrade.gif",
+        "kind": "image",
+        "metadata": "",
+        "name": "Upgrade.gif",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Upgrade-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Upgrade-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Upgrade-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Upgrade-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Upgrade-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Upgrade-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "button1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "button2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button2-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "button3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "button3-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "folder-vector-icon-800x566-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "folder-vector-icon-800x566-1.png.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "folder-vector-icon-800x566-1.png-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "folder-vector-icon-800x566-1.png-1.png.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "folder-vector-icon-800x566-1.png (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "folder-vector-icon-800x566-1.png (1).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue bar.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Interface/PX UI Basic/Blue bar.png",
+          "name": "gdevelop-asset-store"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "virustimer",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Dash",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Recoil",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/test-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/mainmenu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/upgrade-menu"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sinemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/camerashake"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
