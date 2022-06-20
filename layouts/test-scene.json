@@ -4704,6 +4704,15 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "UpgradeMenuVisible",
+            ""
+          ]
         }
       ]
     },
