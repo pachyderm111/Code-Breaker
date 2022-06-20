@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7058000000000035,
+    "zoomFactor": 0.6458000000000035,
     "windowMask": false
   },
   "objectsGroups": [
@@ -274,8 +274,8 @@
       "name": "EnemySpawner",
       "persistentUuid": "606d484b-6bb1-4be0-8b41-6776d15b29c4",
       "width": 64,
-      "x": 32,
-      "y": 32,
+      "x": 96,
+      "y": 96,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -521,8 +521,8 @@
       "name": "BlueBar",
       "persistentUuid": "79e1fd22-35ec-4c83-a13e-951fc7a8397b",
       "width": 0,
-      "x": 32,
-      "y": 32,
+      "x": 64,
+      "y": -83,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -692,7 +692,7 @@
       "angle": 0,
       "customSize": true,
       "height": 512,
-      "layer": "Pause",
+      "layer": "PauseOverlay",
       "locked": false,
       "name": "NewSprite",
       "persistentUuid": "1b267131-80b2-429d-b70b-c88011b9bc3c",
@@ -716,6 +716,38 @@
       "x": 288,
       "y": 128,
       "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "",
+      "locked": false,
+      "name": "Console",
+      "persistentUuid": "13d757f1-7cc7-4028-9386-43fcc843296c",
+      "width": 32,
+      "x": -96,
+      "y": -64,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 32,
+      "layer": "Console",
+      "locked": false,
+      "name": "ConsoleText",
+      "persistentUuid": "5b236327-a388-4ff5-a76f-717a94bd1600",
+      "width": 416,
+      "x": 160,
+      "y": 352,
+      "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2264,6 +2296,41 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Console",
+      "tags": "",
+      "type": "TextEntryObject::TextEntry",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "TextEntryConsole",
+          "type": "TextEntryConsole::TextEntryConsole"
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ConsoleText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Test",
+      "font": "",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
     }
   ],
   "events": [
@@ -2340,11 +2407,20 @@
         },
         {
           "type": {
-            "value": "HideLayer"
+            "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "",
-            "\"Upgrade Menu\""
+            "PauseMenuVisible",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "UpgradeMenuVisible",
+            "False"
           ]
         },
         {
@@ -2353,16 +2429,7 @@
           },
           "parameters": [
             "",
-            "\"Pause\""
-          ]
-        },
-        {
-          "type": {
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"Pause Menu Buttons\""
+            "\"Console\""
           ]
         }
       ]
@@ -2372,6 +2439,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Enemy Spawner",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2725,7 +2793,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Player Housekeeping",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2764,6 +2831,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Health",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2915,7 +2983,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Dash",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3692,6 +3759,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Virus Housekeeping",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3831,6 +3899,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Shooting",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4436,11 +4505,11 @@
       "actions": [
         {
           "type": {
-            "value": "ShowLayer"
+            "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "",
-            "\"Upgrade Menu\""
+            "UpgradeMenuVisible",
+            "True"
           ]
         }
       ]
@@ -4459,109 +4528,28 @@
         },
         {
           "type": {
-            "value": "LayerVisible"
+            "value": "GlobalVariableAsBoolean"
           },
           "parameters": [
-            "",
-            "\"Upgrade Menu\""
+            "UpgradeMenuVisible",
+            "True"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "HideLayer"
+            "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "",
-            "\"Upgrade Menu\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "f"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ShowLayer"
-          },
-          "parameters": [
-            "",
-            "\"Pause\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ShowLayer"
-          },
-          "parameters": [
-            "",
-            "\"Pause Menu Buttons\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeLayerTimeScale"
-          },
-          "parameters": [
-            "",
-            "\"\"",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "Escape"
-          ]
-        },
-        {
-          "type": {
-            "value": "LayerVisible"
-          },
-          "parameters": [
-            "",
-            "\"Pause Menu Buttons\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"Pause\""
-          ]
-        },
-        {
-          "type": {
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"Pause Menu Buttons\""
+            "UpgradeMenuVisible",
+            "False"
           ]
         },
         {
@@ -4572,6 +4560,106 @@
             "",
             "\"\"",
             "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Escape"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "PauseMenuVisible",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "PauseMenuVisible",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayerTimeScale"
+          },
+          "parameters": [
+            "",
+            "\"\"",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Escape"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "UpgradeMenuVisible",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetGlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "PauseMenuVisible",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayerTimeScale"
+          },
+          "parameters": [
+            "",
+            "\"\"",
+            "0"
           ]
         }
       ]
@@ -4598,6 +4686,12 @@
             "",
             "Left"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -4645,15 +4739,6 @@
                 "\"\"",
                 "0"
               ]
-            },
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Pause\""
-              ]
             }
           ]
         },
@@ -4681,15 +4766,6 @@
                 "\"\"",
                 "1"
               ]
-            },
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Pause\""
-              ]
             }
           ]
         }
@@ -4698,8 +4774,179 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "PauseMenuVisible",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"PauseOverlay\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Pause Menu Buttons\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayerTimeScale"
+          },
+          "parameters": [
+            "",
+            "\"\"",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "PauseMenuVisible",
+            "False"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"PauseOverlay\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Pause Menu Buttons\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayerTimeScale"
+          },
+          "parameters": [
+            "",
+            "\"\"",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "UpgradeMenuVisible",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"PauseOverlay\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Upgrade Menu\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayerTimeScale"
+          },
+          "parameters": [
+            "",
+            "\"\"",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "UpgradeMenuVisible",
+            "False"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"PauseOverlay\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Upgrade Menu\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayerTimeScale"
+          },
+          "parameters": [
+            "",
+            "\"\"",
+            "1"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -4732,7 +4979,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "UI",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },
@@ -4753,8 +5000,8 @@
       "ambientLightColorR": 9987080,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "name": "Pause",
-      "visibility": true,
+      "name": "PauseOverlay",
+      "visibility": false,
       "cameras": [],
       "effects": []
     },
@@ -4765,6 +5012,17 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "name": "Pause Menu Buttons",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 7546640,
+      "ambientLightColorG": 6042736,
+      "ambientLightColorR": 14001224,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Console",
       "visibility": true,
       "cameras": [],
       "effects": []
@@ -4782,6 +5040,10 @@
     {
       "name": "ShakeObject_PositionAngleScale",
       "type": "ShakeObject::ShakeObject_PositionAngleScale"
+    },
+    {
+      "name": "TextEntryConsole",
+      "type": "TextEntryConsole::TextEntryConsole"
     },
     {
       "name": "TopDownMovement",

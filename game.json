@@ -2306,6 +2306,18 @@
       "name": "playerHealth",
       "type": "number",
       "value": 5
+    },
+    {
+      "folded": true,
+      "name": "PauseMenuVisible",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "UpgradeMenuVisible",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -2324,6 +2336,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/textentryconsole"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/sinemovement"
