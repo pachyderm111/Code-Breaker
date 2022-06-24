@@ -365,15 +365,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewSprite-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewSprite-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewSprite-2.png",
         "kind": "image",
         "metadata": "",
@@ -1263,15 +1254,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\WallMid-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewFile-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -2247,15 +2229,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
-        "file": "New Piskel-1.png.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "New Piskel-1.png.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "Mouse-Click-00-c-FesliyanStudios.com.ogg",
         "kind": "audio",
         "metadata": "",
@@ -2276,6 +2249,74 @@
           "identifier": "https://resources.gdevelop-app.com/assets/On-Screen Controls/Sprites/Flat Dark/Close button.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-1.png.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pixel.png",
+        "kind": "font",
+        "metadata": "",
+        "name": "pixel.png",
+        "userAdded": true
+      },
+      {
+        "file": "pixel.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "pixel.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "back-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-0-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-0-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2331,7 +2372,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/upgrade-menu"
+      "referenceTo": "/layouts/pausemenu"
     }
   ],
   "externalEvents": [],
